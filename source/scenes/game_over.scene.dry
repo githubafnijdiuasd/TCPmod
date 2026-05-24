@@ -2690,7 +2690,7 @@ All achievements require <span style="color: #0077FF;">dynamic</span>, <span sty
   {!<td style="border: 2px solid #0077FF; background-color: rgba(128, 0, 0, 0.15);">!}
     <div style="padding-left: 0.5em;">
       <div style="font-weight: bold;">Die Rote Justiz</div>
-      <div style=class="achievement_subtitle"> - fully reform the judiciary to ban the RfB deport <span style="color: #7A3C00;">Hitler</span>, prosecute Ernst Rohm, drop the Weltbuhne case and win Prussia v. Reich.
+      <div class="achievement_subtitle"> - fully reform the judiciary to ban the RfB deport <span style="color: #7A3C00;">Hitler</span>, prosecute Ernst Rohm, drop the Weltbuhne case and win Prussia v. Reich.
     </div>
   {!</td>!}
 {!</tr>!}
@@ -2702,10 +2702,10 @@ All achievements require <span style="color: #0077FF;">dynamic</span>, <span sty
     <img src="img/achievement/bruning_der_rotfrontkampfer.png" alt="Brüning der Rotfrontkämpfer"
          style="width: 100%; height: 100%; object-fit: cover; display: block;">
   {!</td>!}
-  {!<td style="border: 2px solid #0077FF; background-color: rgba(128, 0, 0, 0.15);">!}
+  {!<td style="border: 2px solid #0077FF; background-color: rgba(97, 24, 19, 0.2);">!}
     <div style="padding-left: 0.5em;">
       <div style="font-weight: bold;">Brüning der Rotfrontkämpfer</div>
-      <div style=class="achievement_subtitle"> - both the Lautenbach plan and left plan have been implemented while Brüning is Chancellor.
+      <div class="achievement_subtitle"> - both the Lautenbach and left plan have been implemented while Brüning is Chancellor.
     </div>
   {!</td>!}
 {!</tr>!}
@@ -2720,7 +2720,7 @@ All achievements require <span style="color: #0077FF;">dynamic</span>, <span sty
   {!<td style="border: 2px solid #0077FF; background-color: rgba(10, 24, 97, 0.25);">!}
     <div style="padding-left: 0.5em;">
       <div style="font-weight: bold;">Merz und Scholz</div>
-      <div style=class="achievement_subtitle"> - form a <span style="color: #c00000;">Social</span>-<span style="color: #000000;">Christian</span> Coalition with the <i>true</i> <span style="color: #000000; font-weight: bold;">CVP</span> with the <span style="color: #c00000; font-weight: bold;">SPD</span> as junior partner and Brüning as Chancellor.
+      <div class="achievement_subtitle"> - form a <span style="color: #c00000;">Social</span>-<span style="color: #000000;">Christian</span> Coalition with the <i>true</i> <span style="color: #000000; font-weight: bold;">CVP</span> with the <span style="color: #c00000; font-weight: bold;">SPD</span> as junior partner and Brüning as Chancellor.
     </div>
   {!</td>!}
 {!</tr>!}
@@ -2732,10 +2732,10 @@ All achievements require <span style="color: #0077FF;">dynamic</span>, <span sty
     <img src="img/achievement/lindner_moribund.png" alt="Lindner Moribund"
          style="width: 100%; height: 100%; object-fit: cover; display: block;">
   {!</td>!}
-  {!<td style="border: 2px solid #0077FF; background-color: rgba(128, 0, 0, 0.15);">!}
+  {!<td style="border: 2px solid #0077FF; background-color: rgba(97, 24, 19, 0.2);">!}
     <div style="padding-left: 0.5em;">
       <div style="font-weight: bold;">Lindner Moribund</div>
-      <div style=class="achievement_subtitle"> - <span style="color: have the #FFCC00; font-weight: bold;">LVP</span> be formed but carry no seats in the Reichstag.
+      <div class="achievement_subtitle"> - have the <span style="color: #FFCC00; font-weight: bold;">LVP</span> be formed but carry no seats in the Reichstag.
     </div>
   {!</td>!}
 {!</tr>!}
@@ -2747,10 +2747,10 @@ All achievements require <span style="color: #0077FF;">dynamic</span>, <span sty
     <img src="img/achievement/tausendjahrige_libreich.png" alt="Tausendjährige Libreich"
          style="width: 100%; height: 100%; object-fit: cover; display: block;">
   {!</td>!}
-  {!<td style="border: 2px solid #0077FF; background-color: rgba(128, 0, 0, 0.15);">!}
+  {!<td style="border: 2px solid #0077FF; background-color: rgba(97, 24, 19, 0.2);">!}
     <div style="padding-left: 0.5em;">
       <div style="font-weight: bold;">Tausendjährige Libreich</div>
-      <div style=class="achievement_subtitle"> - <span style="color: have the #FFCC00; font-weight: bold;">LVP</span> become the largest party in the Reichstag.
+      <div class="achievement_subtitle"> - have the  <span style="color: #FFCC00; font-weight: bold;">LVP</span> become the largest party in the Reichstag.
     </div>
   {!</td>!}
 {!</tr>!}
@@ -4601,7 +4601,7 @@ All achievements require <span style="color: #0077FF;">dynamic</span>, <span sty
   {!<td style="border: 2px solid #0077FF; background-color: rgba(128, 0, 0, 0.15);">!}
     <div style="padding-left: 0.5em;">
       <div style="font-weight: bold;">Die Rote Justiz</div>
-      <div style=class="achievement_subtitle"> - fully reform the judiciary to ban the RfB deport <span style="color: #7A3C00;">Hitler</span>, prosecute Ernst Rohm, drop the Weltbuhne case and win Prussia v. Reich.
+      <div class="achievement_subtitle"> - fully reform the judiciary to ban the RfB deport <span style="color: #7A3C00;">Hitler</span>, prosecute Ernst Rohm, drop the Weltbuhne case and win Prussia v. Reich.
     </div>
   {!</td>!}
 {!</tr>!}
@@ -4613,10 +4613,10 @@ All achievements require <span style="color: #0077FF;">dynamic</span>, <span sty
     <img src="img/achievement/bruning_der_rotfrontkampfer.png" alt="Brüning der Rotfrontkämpfer"
          style="width: 100%; height: 100%; object-fit: cover; display: block;">
   {!</td>!}
-  {!<td style="border: 2px solid #0077FF; background-color: rgba(128, 0, 0, 0.15);">!}
+  {!<td style="border: 2px solid #0077FF; background-color: rgba(97, 24, 19, 0.2);">!}
     <div style="padding-left: 0.5em;">
       <div style="font-weight: bold;">Brüning der Rotfrontkämpfer</div>
-      <div style=class="achievement_subtitle"> - both the Lautenbach plan and left plan have been implemented while Brüning is Chancellor.
+      <div class="achievement_subtitle"> - both the Lautenbach and left plan have been implemented while Brüning is Chancellor.
     </div>
   {!</td>!}
 {!</tr>!}
@@ -4631,7 +4631,7 @@ All achievements require <span style="color: #0077FF;">dynamic</span>, <span sty
   {!<td style="border: 2px solid #0077FF; background-color: rgba(10, 24, 97, 0.25);">!}
     <div style="padding-left: 0.5em;">
       <div style="font-weight: bold;">Merz und Scholz</div>
-      <div style=class="achievement_subtitle"> - form a <span style="color: #c00000;">Social</span>-<span style="color: #000000;">Christian</span> Coalition with the <i>true</i> <span style="color: #000000; font-weight: bold;">CVP</span> with the <span style="color: #c00000; font-weight: bold;">SPD</span> as junior partner and Brüning as Chancellor.
+      <div class="achievement_subtitle"> - form a <span style="color: #c00000;">Social</span>-<span style="color: #000000;">Christian</span> Coalition with the <i>true</i> <span style="color: #000000; font-weight: bold;">CVP</span> with the <span style="color: #c00000; font-weight: bold;">SPD</span> as junior partner and Brüning as Chancellor.
     </div>
   {!</td>!}
 {!</tr>!}
@@ -4643,10 +4643,10 @@ All achievements require <span style="color: #0077FF;">dynamic</span>, <span sty
     <img src="img/achievement/lindner_moribund.png" alt="Lindner Moribund"
          style="width: 100%; height: 100%; object-fit: cover; display: block;">
   {!</td>!}
-  {!<td style="border: 2px solid #0077FF; background-color: rgba(128, 0, 0, 0.15);">!}
+  {!<td style="border: 2px solid #0077FF; background-color: rgba(97, 24, 19, 0.2);">!}
     <div style="padding-left: 0.5em;">
       <div style="font-weight: bold;">Lindner Moribund</div>
-      <div style=class="achievement_subtitle"> - <span style="color: have the #FFCC00; font-weight: bold;">LVP</span> be formed but carry no seats in the Reichstag.
+      <div class="achievement_subtitle"> - have the <span style="color: #FFCC00; font-weight: bold;">LVP</span> be formed but carry no seats in the Reichstag.
     </div>
   {!</td>!}
 {!</tr>!}
@@ -4658,10 +4658,10 @@ All achievements require <span style="color: #0077FF;">dynamic</span>, <span sty
     <img src="img/achievement/tausendjahrige_libreich.png" alt="Tausendjährige Libreich"
          style="width: 100%; height: 100%; object-fit: cover; display: block;">
   {!</td>!}
-  {!<td style="border: 2px solid #0077FF; background-color: rgba(128, 0, 0, 0.15);">!}
+  {!<td style="border: 2px solid #0077FF; background-color: rgba(97, 24, 19, 0.2);">!}
     <div style="padding-left: 0.5em;">
       <div style="font-weight: bold;">Tausendjährige Libreich</div>
-      <div style=class="achievement_subtitle"> - <span style="color: have the #FFCC00; font-weight: bold;">LVP</span> become the largest party in the Reichstag.
+      <div class="achievement_subtitle"> - have the  <span style="color: #FFCC00; font-weight: bold;">LVP</span> become the largest party in the Reichstag.
     </div>
   {!</td>!}
 {!</tr>!}
@@ -6511,7 +6511,7 @@ All achievements require <span style="color: #0077FF;">dynamic</span>, <span sty
   {!<td style="border: 2px solid #0077FF; background-color: rgba(128, 0, 0, 0.15);">!}
     <div style="padding-left: 0.5em;">
       <div style="font-weight: bold;">Die Rote Justiz</div>
-      <div style=class="achievement_subtitle"> - fully reform the judiciary to ban the RfB deport <span style="color: #7A3C00;">Hitler</span>, prosecute Ernst Rohm, drop the Weltbuhne case and win Prussia v. Reich.
+      <div class="achievement_subtitle"> - fully reform the judiciary to ban the RfB deport <span style="color: #7A3C00;">Hitler</span>, prosecute Ernst Rohm, drop the Weltbuhne case and win Prussia v. Reich.
     </div>
   {!</td>!}
 {!</tr>!}
@@ -6523,10 +6523,10 @@ All achievements require <span style="color: #0077FF;">dynamic</span>, <span sty
     <img src="img/achievement/bruning_der_rotfrontkampfer.png" alt="Brüning der Rotfrontkämpfer"
          style="width: 100%; height: 100%; object-fit: cover; display: block;">
   {!</td>!}
-  {!<td style="border: 2px solid #0077FF; background-color: rgba(128, 0, 0, 0.15);">!}
+  {!<td style="border: 2px solid #0077FF; background-color: rgba(97, 24, 19, 0.2);">!}
     <div style="padding-left: 0.5em;">
       <div style="font-weight: bold;">Brüning der Rotfrontkämpfer</div>
-      <div style=class="achievement_subtitle"> - both the Lautenbach plan and left plan have been implemented while Brüning is Chancellor.
+      <div class="achievement_subtitle"> - both the Lautenbach and left plan have been implemented while Brüning is Chancellor.
     </div>
   {!</td>!}
 {!</tr>!}
@@ -6541,7 +6541,7 @@ All achievements require <span style="color: #0077FF;">dynamic</span>, <span sty
   {!<td style="border: 2px solid #0077FF; background-color: rgba(10, 24, 97, 0.25);">!}
     <div style="padding-left: 0.5em;">
       <div style="font-weight: bold;">Merz und Scholz</div>
-      <div style=class="achievement_subtitle"> - form a <span style="color: #c00000;">Social</span>-<span style="color: #000000;">Christian</span> Coalition with the <i>true</i> <span style="color: #000000; font-weight: bold;">CVP</span> with the <span style="color: #c00000; font-weight: bold;">SPD</span> as junior partner and Brüning as Chancellor.
+      <div class="achievement_subtitle"> - form a <span style="color: #c00000;">Social</span>-<span style="color: #000000;">Christian</span> Coalition with the <i>true</i> <span style="color: #000000; font-weight: bold;">CVP</span> with the <span style="color: #c00000; font-weight: bold;">SPD</span> as junior partner and Brüning as Chancellor.
     </div>
   {!</td>!}
 {!</tr>!}
@@ -6553,10 +6553,10 @@ All achievements require <span style="color: #0077FF;">dynamic</span>, <span sty
     <img src="img/achievement/lindner_moribund.png" alt="Lindner Moribund"
          style="width: 100%; height: 100%; object-fit: cover; display: block;">
   {!</td>!}
-  {!<td style="border: 2px solid #0077FF; background-color: rgba(128, 0, 0, 0.15);">!}
+  {!<td style="border: 2px solid #0077FF; background-color: rgba(97, 24, 19, 0.2);">!}
     <div style="padding-left: 0.5em;">
       <div style="font-weight: bold;">Lindner Moribund</div>
-      <div style=class="achievement_subtitle"> - <span style="color: have the #FFCC00; font-weight: bold;">LVP</span> be formed but carry no seats in the Reichstag.
+      <div class="achievement_subtitle"> - have the <span style="color: #FFCC00; font-weight: bold;">LVP</span> be formed but carry no seats in the Reichstag.
     </div>
   {!</td>!}
 {!</tr>!}
@@ -6568,10 +6568,10 @@ All achievements require <span style="color: #0077FF;">dynamic</span>, <span sty
     <img src="img/achievement/tausendjahrige_libreich.png" alt="Tausendjährige Libreich"
          style="width: 100%; height: 100%; object-fit: cover; display: block;">
   {!</td>!}
-  {!<td style="border: 2px solid #0077FF; background-color: rgba(128, 0, 0, 0.15);">!}
+  {!<td style="border: 2px solid #0077FF; background-color: rgba(97, 24, 19, 0.2);">!}
     <div style="padding-left: 0.5em;">
       <div style="font-weight: bold;">Tausendjährige Libreich</div>
-      <div style=class="achievement_subtitle"> - <span style="color: have the #FFCC00; font-weight: bold;">LVP</span> become the largest party in the Reichstag.
+      <div class="achievement_subtitle"> - have the  <span style="color: #FFCC00; font-weight: bold;">LVP</span> become the largest party in the Reichstag.
     </div>
   {!</td>!}
 {!</tr>!}
