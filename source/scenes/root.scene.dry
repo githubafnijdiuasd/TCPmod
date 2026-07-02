@@ -61,31 +61,19 @@ Q.dissent = 0.05;
 Q.dissent_percent = 5;
 
 // factions
-Q.factions = ['left', 'center', 'labor', 'reformist', 'neorevisionist', 'social_patriot'];
+Q.factions = ['left', 'centre', 'right'];
 // should this be normalized to 100%?
 Q.left_strength = 15;
 Q.left_dissent = 20;
-Q.center_strength = 30;
-Q.center_dissent = 0;
-Q.labor_strength = 25;
-Q.labor_dissent = 5;
-Q.reformist_strength = 25;
-Q.reformist_dissent = 5;
-Q.neorevisionist_strength = 5;
-Q.neorevisionist_dissent = 10;
-Q.social_patriot_strength = 0
-Q.social_patriot_dissent = 0;
+Q.centre_strength = 30;
+Q.centre_dissent = 0;
+Q.right_strength = 25;
+Q.right_dissent = 5;
 
 // secret events...
-Q.unions_independent = 0;
+Q.sl_split = 0;
 Q.centrists_resign = 0;
-Q.left_split = 0;
-Q.reformists_resigned = 0;
-
-// have we discovered neorevisionism?
-Q.neorevisionism = 0;
-
-Q.social_patriot = 0;
+Q.right_split = 0;
 
 // crisis_urgency indicates how seriously the SPD is taking the economic crisis - scale from 0 to 10.
 Q.crisis_urgency = 0;
@@ -125,18 +113,33 @@ Q.z_relation = 50;
 Q.kpd_relation = 25;
 Q.ddp_relation = 60;
 Q.dvp_relation = 35;
+Q.rswp_relation = 30;
+Q.gay_relation = 10;
+Q.unc_relation = 50;
+Q.bdr_relation = 5;
+Q.up_relation = 0;
+Q.spd_relation = 20;
+Q.cfgap_relation = 10;
+
 // DNVP and NSDAP are invariably hostile
 Q.dnvp_relation = 5;
 Q.nsdap_relation = 0;
 Q.lvp_relation = 0;
 
-Q.kpd_leader = "Thälmann";
-Q.z_leader = "Marx";
-Q.z_ideology = "Right";
-Q.cvp_ideology = "Moderate";
-Q.stegerwald_path = 0;
-Q.nsdap_leader = "Hitler";
-Q.nsdap_chancellor = "Hitler";
+Q.rswp_ideology = "Pan-Leftism";
+Q.gay_ideology = "Eco-Anarchism";
+Q.unc_ideology = "Democratic Gentocracy";
+Q.spd_ideology = "Revisionist Socialism";
+Q.up_ideology = "Right Liberalism";
+Q.bdr_ideology = "Pan-Centrism";
+Q.cfgap_ideology = "Nyxian Accelerationism";
+Q.rswp_leader = "GingaNinja64";
+Q.gay_leader = "geraldine-ferrari";
+Q.unc_leader = "NoNebula6";
+Q.spd_leader = "FredMemelord"
+Q.up_leader  = "IrkSeven & Doggi3thedog";
+Q.bdr_leader = "CerisVG304";
+Q.cfgap_leader = "Letsgowendigo";
 
 // hmm... maybe we can play nice with Hindenburg???
 Q.hindenburg_relation = 25;
@@ -248,10 +251,10 @@ Q.old_middle_qol = 100;
 Q.new_middle_qol = 100;
 
 Q.classes = ['workers', 'old_middle', 'new_middle', 'rural', 'unemployed', 'catholics'];
-Q.parties = ['spd', 'kpd', 'z', 'ddp', 'dvp', 'dnvp', 'nsdap', 'other'];
-Q.parties_graph = ['spd', 'kpd', 'z', 'ddp', 'dvp', 'dnvp', 'nsdap', 'other'];
+Q.parties = ['spd', 'up', 'bdr', 'rswp', 'gay', 'unc', 'cfgap', 'independents'];
+Q.parties_graph = ['spd', 'up', 'bdr', 'rswp', 'gay', 'unc', 'cfgap', 'independents'];
 
-Q.sapd_formed = 0;
+Q.lsa_formed = 0;
 Q.dnf_formed = 0;
 Q.dnef_formed = 0;
 Q.kvp_formed = 0;
@@ -261,58 +264,58 @@ Q.cvp_formed = 0;
 // Support for party by social group
 // they don't have to sum to 100 since the electoral calculations will be normalized.
 Q.workers_spd = 55;
-Q.workers_kpd = 22;
-Q.workers_z = 5;
-Q.workers_ddp = 2;
-Q.workers_dvp = 0;
-Q.workers_dnvp = 6;
-Q.workers_nsdap = 0;
-Q.workers_other = 10;
+Q.workers_up = 22;
+Q.workers_bdr = 5;
+Q.workers_rswp = 2;
+Q.workers_gay = 0;
+Q.workers_unc = 6;
+Q.workers_cfgap = 0;
+Q.workers_independent = 10;
 
 Q.new_middle_spd = 8;
-Q.new_middle_kpd = 1;
-Q.new_middle_z = 10;
-Q.new_middle_ddp = 23;
-Q.new_middle_dvp = 22;
-Q.new_middle_dnvp = 10;
-Q.new_middle_nsdap = 4;
-Q.new_middle_other = 22;
+Q.new_middle_up = 1;
+Q.new_middle_bdr = 10;
+Q.new_middle_rswp = 23;
+Q.new_middle_gay = 22;
+Q.new_middle_unc = 10;
+Q.new_middle_cfgap = 4;
+Q.new_middle_independent = 22;
 
 Q.old_middle_spd = 4;
-Q.old_middle_kpd = 0;
-Q.old_middle_z = 6;
-Q.old_middle_ddp = 10;
-Q.old_middle_dvp = 27;
-Q.old_middle_dnvp = 24;
-Q.old_middle_nsdap = 9;
-Q.old_middle_other = 20;
+Q.old_middle_up = 0;
+Q.old_middle_bdr = 6;
+Q.old_middle_rswp = 10;
+Q.old_middle_gay = 27;
+Q.old_middle_unc = 24;
+Q.old_middle_cfgap = 9;
+Q.old_middle_independent = 20;
 
 Q.rural_spd = 9;
-Q.rural_kpd = 0;
-Q.rural_z = 5;
-Q.rural_ddp = 4;
-Q.rural_dvp = 15;
-Q.rural_dnvp = 46;
-Q.rural_nsdap = 3;
-Q.rural_other = 16;
+Q.rural_up = 0;
+Q.rural_bdr = 5;
+Q.rural_rswp = 4;
+Q.rural_gay = 15;
+Q.rural_unc = 46;
+Q.rural_cfgap = 3;
+Q.rural_independent = 16;
 
 Q.unemployed_spd = 21;
-Q.unemployed_kpd = 50;
-Q.unemployed_z = 1;
-Q.unemployed_ddp = 0;
-Q.unemployed_dvp = 0;
-Q.unemployed_dnvp = 4;
-Q.unemployed_nsdap = 13;
-Q.unemployed_other = 7;
+Q.unemployed_up = 50;
+Q.unemployed_bdr = 1;
+Q.unemployed_rswp = 0;
+Q.unemployed_gay = 0;
+Q.unemployed_unc = 4;
+Q.unemployed_cfgap = 13;
+Q.unemployed_independent = 7;
 
 Q.catholics_spd = 21;
-Q.catholics_kpd = 2;
-Q.catholics_z = 49;
-Q.catholics_ddp = 0;
-Q.catholics_dvp = 5;
-Q.catholics_dnvp = 5;
-Q.catholics_nsdap = 0;
-Q.catholics_other = 16;
+Q.catholics_up = 2;
+Q.catholics_bdr = 49;
+Q.catholics_rswp = 0;
+Q.catholics_gay = 5;
+Q.catholics_unc = 5;
+Q.catholics_cfgap = 0;
+Q.catholics_independent = 16;
 
 Q.workers_spd_old = 60;
 Q.new_middle_spd_old = 8;
@@ -521,11 +524,11 @@ Q.economic_records = [];
 
 
 // State of the government
-Q.president = "Hindenburg";
+Q.president = "Bluitwns";
 Q.president_ideology = "Hindenburg";
 // starting chancellor: Wilhelm Marx
-Q.chancellor = "Marx";
-Q.chancellor_party = 'Z';
+Q.chancellor = "ViktorChernov";
+Q.chancellor_party = 'TCP';
 Q.spd_in_government = 0;
 Q.spd_in_government_time = 0;
 Q.spd_in_government_total_time = 0;
@@ -832,28 +835,12 @@ Q.nazi_decay_timer = 0;
 Q.red_general_timer = 0;
 Q.weimar_rally_timer = 0;
 Q.editorial_line = "Center";
-Q.z_party_name = "Z";
-Q.dnvp_leader = "Westarp";
-Q.dnvp_ideology = "Radical";
-Q.dstp_formed = 0;
-Q.ddp_left = 0;
-Q.ddp_right = 0;
-Q.ddp_name = "DDP";
-Q.ddp_full_name = "German Democratic Party";
-Q.ddp_leader = "Koch-Weser";
-Q.ddp_ideology = "Moderate"
-Q.ddp_cohesion = 15;
 Q.young_plan_signatures = 0;
 Q.young_plan_votes = 0;
 Q.weimar_ref_signatures = 0;
 Q.weimar_ref_votes = 0;
 Q.was_in_center_right_coalition = 0;
 Q.was_in_right_coalition = 0;
-Q.dvp_left = 0;
-Q.dvp_right = 0;
-Q.dvp_was_in_prussia = 0;
-Q.dvp_leader = "Stresemann";
-Q.dvp_ideology = "Moderate"
 Q.liberal_cooperation = 0;
 Q.liberal_parliament = 0;
 Q.bourgeois_parliament = 0;
@@ -1271,10 +1258,11 @@ Q.resources = 3;
 Q.dues = 3;
 Q.base_dues = 3;
 Q.rb_strength = 2000;
-Q.z_relation = 41;
-Q.kpd_relation = 21;
-Q.dvp_relation = 31;
-Q.ddp_relation = 55;
+Q.rswp_relation = 30;
+Q.gay_relation = 10;
+Q.unc_relation = 50;
+Q.spd_relation = 20;
+Q.cfgap_relation = 10;
 Q.budget = 2;
 !}
 go-to: 1928_main
